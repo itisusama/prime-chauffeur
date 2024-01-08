@@ -1,0 +1,59 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin roundBorders {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.pc-hero{
+    background-image: url('/assets/images/1600x800/img-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include flexCenter;
+  }
+.pc-hero-form {
+    padding: 30px;
+  }
+.pc-hero-form >div{
+  background-color: $white;
+}
+
+.pc-hero-form-btns button{
+  color: white;
+  background-color: $red;
+  border-radius: 0;
+  padding: 0.2rem 0.5rem;
+}
+
+.pc-hero-form-btns button:hover{
+  color: $red;
+  background-color: transparent;
+  border-radius: 0;
+  border-color: $red;
+}
+
+.pc-hero-submit-btn{
+  background-color: $red;
+  @include roundBorders;
+}
+
+.pc-hero-submit-btn button, .pc-hero-submit-btn button:hover{
+  color: white;
+}
+@media (max-width: 575px){
+  .pc-hero-form {
+    padding: 0;
+  }
+}
+
+@media (max-width: 369px){
+  .pc-hero-form-btns button{
+    padding: 0.2rem 0.4rem !important;
+  }
+}
