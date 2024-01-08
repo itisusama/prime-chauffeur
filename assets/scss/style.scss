@@ -1,6 +1,5 @@
 // Variables
 @import 'variables';
-body {
-    background-color: $primary-color;
-    color: $text-color;
-  }
+
+// START:: Navbar
+@import 'navbar';

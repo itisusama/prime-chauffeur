@@ -1,6 +1,91 @@
-body {
-  background-color: #3498db;
-  color: #333;
+.pc-navbar a {
+  text-decoration: none;
+}
+
+.pc-navbar-logo {
+  color: #fff;
+  border-radius: 50%;
+  background-color: #dc3545;
+  width: fit-content;
+}
+
+.pc-navbar-logo:hover, .pc-navbar-booknow:hover {
+  background-color: #198754;
+}
+
+.pc-navbar-name h5 {
+  color: #615f5f;
+}
+
+.pc-navbar-booknow {
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.pc-navbar-mobile-toggle {
+  float: right;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: none;
+}
+
+.pc-navbar-mobile-toggle a {
+  color: #dc3545;
+}
+
+.pc-navbar-mobile-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pc-mobile-navbar-close {
+  display: none;
+}
+
+@media (max-width: 778px) {
+  .pc-navbar-mobile-toggle {
+    display: block;
+  }
+  .pc-desktop-navbar > div {
+    display: none;
+  }
+  .pc-navbar-mobile-logo {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .pc-mobile-navbar-close {
+    display: block;
+  }
+  .pc-mobile-navbar {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+  }
+  .pc-mobile-navbar.navbar-active {
+    left: 0;
+  }
+  .pc-mobile-navbar-close {
+    color: #dc3545;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .pc-mobile-navbar {
+    width: 75%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
