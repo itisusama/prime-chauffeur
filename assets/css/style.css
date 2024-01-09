@@ -210,5 +210,47 @@ body, html {
     gap: 0.5rem;
   }
 }
+.pc-contact-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/1600x800/img-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 52vh;
+}
+
+.pc-contactus-btn {
+  background-color: #dc3545;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: fit-content;
+}
+
+.pc-contactus-btn a {
+  color: #fff;
+}
+
+.pc-contactus-btn a:hover {
+  color: #fff;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.pc-contact-submit {
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  padding: 10px;
+}
+
+.pc-contact-submit:hover {
+  border: 1px solid #dc3545;
+  background-color: transparent;
+  color: #dc3545;
+  padding: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

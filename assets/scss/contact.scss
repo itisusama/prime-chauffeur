@@ -1,0 +1,39 @@
+.pc-contact-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/1600x800/img-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 52vh;
+}
+
+.pc-contactus-btn{
+    background-color: $red;
+    @include roundBorders;
+    width: fit-content;
+}
+
+.pc-contactus-btn a{
+    color: $white;
+}
+
+.pc-contactus-btn a:hover{
+    color: $white;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+.pc-contact-submit{
+    border: none;
+    background-color: $red;
+    color: $white;
+    padding: 10px;
+}
+
+.pc-contact-submit:hover{
+    border: 1px solid $red;
+    background-color: transparent;
+    color: $red;
+    padding: 10px;
+}
