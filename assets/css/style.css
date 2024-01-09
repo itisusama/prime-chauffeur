@@ -1,3 +1,7 @@
+body, html {
+  overflow-x: hidden;
+}
+
 .pc-navbar a {
   text-decoration: none;
 }
@@ -96,7 +100,7 @@
   }
 }
 .pc-hero {
-  background-image: url("/assets/images/1600x800/img-4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/1600x800/img-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -151,6 +155,60 @@
 }
 .item {
   margin: 2px;
+}
+
+.text-red {
+  color: #dc3545;
+}
+
+@media (max-width: 767px) {
+  .footer-grid-column {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+  }
+}
+.pc-carPriceBadge {
+  background-color: #dc3545;
+  color: #fff;
+  width: fit-content;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.owl-carousel i {
+  color: #dc3545;
+}
+
+.pc-home-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/1600x800/img-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pc-home-banner-icon i {
+  color: #fff;
+  font-size: 40px;
+}
+
+.pc-bi-box {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pc-bannerNumbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .pc-bi-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

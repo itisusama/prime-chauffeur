@@ -1,0 +1,44 @@
+// Cards
+.pc-carPriceBadge{
+    background-color: $red;
+    color: $white;
+    width: fit-content;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}       
+
+.owl-carousel i{
+    color: $red;
+}
+
+// Banners
+.pc-home-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/1600x800/img-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pc-home-banner-icon i{
+    color: $white;
+    font-size: 40px;
+}
+
+.pc-bi-box{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.pc-bannerNumbers{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px){
+    .pc-bi-box{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }   
+}
