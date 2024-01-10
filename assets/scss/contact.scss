@@ -37,3 +37,38 @@
     color: $red;
     padding: 10px;
 }
+
+// news letter
+.pc-newsletter{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.pc-newsletter input{
+    width: 30vw;
+}
+
+.pc-newsletter-btn{
+    background-color: $red;
+    width: fit-content;
+    padding: 0 15px;
+}
+
+.pc-newsletter-btn button, .pc-newsletter-btn button:hover{
+    color: $white;
+}
+
+@media (max-width: 491px){
+
+    .pc-newsletter input{
+        width: 80vw;
+    }
+    
+    .pc-newsletter{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+}
