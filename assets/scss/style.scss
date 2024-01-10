@@ -28,6 +28,12 @@ body, html{
   }
 }
 
+.pc-brands{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 //cards
 @import 'cardsandbanners';
 

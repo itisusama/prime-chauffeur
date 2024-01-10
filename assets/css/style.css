@@ -168,6 +168,12 @@ body, html {
     align-items: start !important;
   }
 }
+.pc-brands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .pc-carPriceBadge {
   background-color: #dc3545;
   color: #fff;
