@@ -12,10 +12,197 @@
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
 <body>
+    <!-- START:: Navbar -->
+    <section class="pc-navbar container-fluid px-0">
+        <nav class="pc-desktop-navbar bg-body-tertiary px-5 py-2 d-flex justify-content-between">
+            <!-- LOGO and Name -->
+            <div class="pc-navbar-mobile-logo">
+                <div class="pc-navbar-logo p-2"><i class="fa-solid fa-car"></i></div>
+                <div class="pc-navbar-name"><h5>Prime Chauffeur</h5></div>
+            </div>
+            <!-- Items -->
+            <div class="pc-navbar-list">
+                <ul class="list-unstyled d-flex gap-1 align-items-center">
+                    <li><b><a href="index.html">Home</a></b></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Cars
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Car 1</a></li>
+                              <li><a class="dropdown-item" href="#">Car 2</a></li>
+                              <li><a class="dropdown-item" href="#">Car 3</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Item 2
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Sub-Item 1</a></li>
+                              <li><a class="dropdown-item" href="#">Sub-Item 2</a></li>
+                              <li><a class="dropdown-item" href="#">Sub-Item 3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Item 3
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Sub-Item 1</a></li>
+                              <li><a class="dropdown-item" href="#">Sub-Item 2</a></li>
+                              <li><a class="dropdown-item" href="#">Sub-Item 3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="contact.html" style="margin-right: 10px;">Contact</a></li>
+                    <li><a href="about.html" style="margin-right: 10px;">About</a></li>
+                    <li><button type="button" class="pc-navbar-booknow px-3">Book Now</button></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="pc-navbar-mobile-toggle"><a href="#" id="pc-navbar-mobile-toggle"><i class="fa-solid fa-bars fa-2xl"></i></a></div>
+    </section>
+    <!-- Mobile Navbar -->
+    <section class="pc-mobile-navbar bg-light" id="pc-mobile-navbar">
+      <!-- close -->
+      <div class="pc-mobile-navbar-close" id="pc-mobile-navbar-close"><i class="fa-solid fa-x"></i></div>
+
+      <div class="container pc-mobile-list">
+          <ul class="list-unstyled">
+            <li><b><a class="btn" href="index.html">Home</a></b></li>
+            <li>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cars
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Car 1</a></li>
+                      <li><a class="dropdown-item" href="#">Car 2</a></li>
+                      <li><a class="dropdown-item" href="#">Car 3</a></li>
+                    </ul>
+                  </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Item 2
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sub-Item 1</a></li>
+                      <li><a class="dropdown-item" href="#">Sub-Item 2</a></li>
+                      <li><a class="dropdown-item" href="#">Sub-Item 3</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Item 3
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sub-Item 1</a></li>
+                      <li><a class="dropdown-item" href="#">Sub-Item 2</a></li>
+                      <li><a class="dropdown-item" href="#">Sub-Item 3</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a class="btn" href="contact.html" style="margin-right: 10px;">Contact</a></li>
+            <li><a class="btn" href="about.html" style="margin-right: 10px;">About</a></li>
+            <li><button type="button" class="pc-navbar-booknow px-3">Book Now</button></li>
+        </ul>
+      </div>
+    </section>
+    <!-- Mobile Navbar -->
+    <!-- END:: Navbar -->
+
+    <!-- START:: Banner -->
+    <section class="pc-contact-banner py-3">
+        <div class="container mt-3">
+            <h1 class="text-white">About Us</h1>
+            <div class="text-white w-50">
+                <p>Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.</p>
+            </div>
+        </div>
+    </section>
+    <!-- END:: Banner -->
+
+    <!-- START:: image and info -->
+    <section class="container mt-4 mb-4">
+        <div class="row">
+            <!-- map Image -->
+            <div class="col-lg-6 d-flex justify-content-center">
+                <img src="assets/images/cars/locations-map.png" class="img-fluid" alt="map">
+            </div>
+            <!-- information -->
+            <div class="col-lg-6">
+                <h2 class="text-red">About Company</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sit distinctio consequatur minima, nobis quibusdam perspiciatis maxime aspernatur blanditiis nam voluptate soluta quo possimus quas fugit laudantium, expedita facilis impedit. Harum aliquam at assumenda enim eveniet nisi iusto voluptas!</p>
+                <div class="pc-newsletter-btn mt-4">
+                   <button class="btn">Hire a Car</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END:: image and info -->
+
+    <!-- START:: Counter -->
+    <section class="pc-counter">
+        <div class="container mt-4 mb-4">
+    
+            <div class="col text-center mb-4">
+                <h2 class="text-white">Counter Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            
+            <div class="row">	
+            </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                    <div class="counter shadow">
+              <i class="fa fa-code fa-2xl"></i>
+              <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
+               <p class="count-text ">Our Customer</p>
+            </div>
+                    </div>
+                      <div class="col-md-3">
+                       <div class="counter shadow">
+              <i class="fa fa-coffee fa-2xl"></i>
+              <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+              <p class="count-text ">Happy Clients</p>
+            </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="counter shadow">
+              <i class="fa fa-lightbulb fa-2xl"></i>
+              <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
+              <p class="count-text ">Project Complete</p>
+            </div></div>
+                      <div class="col-md-3">
+                      <div class="counter shadow">
+              <i class="fa fa-bug fa-2xl"></i>
+              <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
+              <p class="count-text ">Coffee With Clients</p>
+            </div>
+                      </div>
+                 </div>
+        </div>
+    </section>
+    <!-- END:: Counter -->
+
+    <!-- Brands -->
+    <!-- Brands -->
 
     <!-- Bootstrap JS -->
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/counter.js"></script>
 </body>
 </html>
