@@ -63,3 +63,13 @@
     margin-top: 190px !important;
   }
 }
+
+@media (max-width: 320px){
+  .pc-hero-form-btns button{
+    padding: 0.2rem 1rem !important;
+  }
+
+  #pc-oneway-form, #pc-bythehour-form{
+    padding: 0 10px!important;
+  }
+}
