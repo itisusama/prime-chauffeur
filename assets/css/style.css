@@ -189,6 +189,22 @@ body, html {
   flex-wrap: wrap;
 }
 
+.owl-nav [class*=owl-] {
+  margin: 0 10px;
+}
+
+.owl-prev, .owl-next {
+  font-size: 30px !important;
+}
+
+.owl-prev {
+  content: "< ";
+}
+
+.owl-next {
+  content: " >";
+}
+
 .pc-carPriceBadge {
   background-color: #dc3545;
   color: #fff;
