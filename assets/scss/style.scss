@@ -50,6 +50,10 @@ body, html{
   content: " >";
 }
 
+.pc-blog-category a {
+  text-decoration: none;
+}
+
 //cards
 @import 'cardsandbanners';
 
