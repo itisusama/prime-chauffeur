@@ -118,10 +118,10 @@ body, html {
 }
 
 .pc-hero-form-btns button {
-  color: white;
+  color: #fff;
   background-color: #dc3545;
   border-radius: 0;
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 3.5rem;
 }
 
 .pc-hero-form-btns button:hover {
@@ -140,17 +140,32 @@ body, html {
 }
 
 .pc-hero-submit-btn button, .pc-hero-submit-btn button:hover {
-  color: white;
+  color: #fff;
+}
+
+.pc-hero-heading {
+  margin-top: 2rem;
 }
 
 @media (max-width: 575px) {
-  .pc-hero-form {
-    padding: 0;
-  }
-}
-@media (max-width: 369px) {
   .pc-hero-form-btns button {
-    padding: 0.2rem 0.4rem !important;
+    padding: 0.2rem 1.4rem !important;
+  }
+  .pc-hero {
+    height: 52vh;
+  }
+  .pc-hero-heading {
+    margin-top: -7rem !important;
+  }
+  .pc-hero-form {
+    position: absolute;
+    top: 180px;
+  }
+  .pc-hero-form > div {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .pc-carCardsSlider-mobile {
+    margin-top: 190px !important;
   }
 }
 .item {
