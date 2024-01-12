@@ -123,20 +123,14 @@
     <!-- START:: Banner -->
     <section class="pc-contact-banner py-3">
       <div class="container mt-3">
-          <h1 class="text-white">Blog</h1>
+          <h1 class="text-red">Blog</h1>
           <div class="text-white w-50">
               <p>Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.</p>
           </div>
       </div>
   </section>
   <!-- END:: Banner -->
-  
-<!-- 
-    right side
-    - Search
-    - Categories
-    - Recent post
- -->
+
  <section class="mt-4 mb-4 container-xl">
     <div class="row">
         <!-- Left Side -->
@@ -156,7 +150,7 @@
             <div class="pc-dnc d-flex gap-3">
                 <span class="d-block p-2"><small><i class="fa-solid fa-calendar-days"></i> 12-January-2024</small></span>
                 <span class="d-block p-2"><small><i class="fa-solid fa-comment"></i> 999</small></span>
-                <span class="d-block p-2"><small><i class="fa-solid fa-folder"></i> Category Name</small></span>
+                <span class="d-block p-2"><small><i class="fa-solid fa-folder"></i> <a href="blogs.html" class="text-white" style="text-decoration: none;">Category Name</a></small></span>
             </div>
             <!-- (date posted, number of comments, category) -->
             <!-- Post -->
@@ -273,6 +267,56 @@
         </div>
         <!-- Left Side -->
         <!-- Right Side -->
+        <div class="col-lg-3 p-2 mt-4">
+          <!-- Search -->
+          <div class="border">
+            <div class="input-group">
+              <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+              <span class="input-group-text border-0" id="search-addon">
+                <i class="fas fa-search"></i>
+              </span>
+            </div>
+          </div>
+          <!-- Search -->
+          <!-- Categories -->
+          <div class="mt-3 border py-2 px-4 pc-blog-category"> 
+            <h4 class="text-red">Categories</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">Category 1</a></li>
+              <li><a href="#">Category 2</a></li>
+              <li><a href="#">Category 3</a></li>
+              <li><a href="#">Category 4</a></li>
+            </ul>
+          </div>
+          <!-- Categories -->
+          <!-- Recent -->
+          <div class="mt-3 border p-2 border">
+            <h4 class="text-red">Recent Posts</h4>
+            <!-- 1 -->
+            <div class="row">
+              <div class="col-4 d-flex justify-content-center align-items-center"><img src="assets/images/900x600/1.jpg" class="img-fluid" alt="post"></div>
+              <div class="col-8">
+                <p class="small">The title of the post goes here <br> <span class="text-red">11-January-2024</span></p>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="row">
+              <div class="col-4 d-flex justify-content-center align-items-center"><img src="assets/images/900x600/2.jpg" class="img-fluid" alt="post"></div>
+              <div class="col-8">
+                <p class="small">The title of the post goes here <br> <span class="text-red">11-January-2024</span></p>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="row">
+              <div class="col-4 d-flex justify-content-center align-items-center"><img src="assets/images/900x600/3.jpg" class="img-fluid" alt="post"></div>
+              <div class="col-8">
+                <p class="small">The title of the post goes here <br> <span class="text-red">11-January-2024</span></p>
+              </div>
+            </div>
+            <!-- End -->
+          </div>
+          <!-- Recent -->
+        </div>
         <!-- Right Side -->
     </div>
  </section>
@@ -294,7 +338,127 @@
     </form>
 </div>
 <!-- END:: News Letter -->
- <!-- Footer -->
+ <!-- START:: Footer -->
+ <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="footer-grid-column col-md-1 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="footer-grid-column col-md-1 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="footer-grid-column col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+  </div>
+  <!-- Copyright -->
+</footer>
+  <!-- END:: Footer -->
 
  <!-- Bootstrap JS -->
  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -52,6 +52,11 @@ body, html{
 
 .pc-blog-category a {
   text-decoration: none;
+  color: black;
+}
+
+footer h6, .footer-grid-column p i{
+  color: $red;
 }
 
 //cards
