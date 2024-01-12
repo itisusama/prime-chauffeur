@@ -35,10 +35,40 @@
     justify-content: space-between;
 }
 
+.pc-singleBlog-image img{
+    height: 60vh;
+}
+
+.pc-dnc span{
+    background-color: $red;
+    color: $white;
+    width: fit-content;
+}
+
+.pc-singleBlog-comments{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 700px){
+    .pc-singleBlog-image img{
+        height: 40vh;
+    }
+}
+
 @media (max-width: 500px){
     .pc-bi-box{
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-    }   
+    }
+
+    .pc-singleBlog-comments{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
 }
