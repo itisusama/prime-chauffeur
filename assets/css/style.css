@@ -373,6 +373,9 @@ textarea:focus {
     gap: 0.5rem;
     justify-content: center;
   }
+  .pc-contact-banner {
+    height: 52vh;
+  }
 }
 .testimonial-slider {
   background-color: #dc3545;
