@@ -114,7 +114,8 @@ body, html {
 }
 
 .pc-hero-form > div {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.37);
+  border-radius: 10px;
 }
 
 .pc-hero-form-btns button {
