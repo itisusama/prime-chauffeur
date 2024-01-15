@@ -114,7 +114,7 @@ body, html {
 }
 
 .pc-hero-form > div {
-  background-color: rgba(255, 255, 255, 0.37);
+  background-color: rgba(255, 255, 255, 0.521);
   border-radius: 10px;
 }
 
@@ -153,20 +153,20 @@ body, html {
     padding: 0.2rem 1.4rem !important;
   }
   .pc-hero {
-    height: 52vh;
+    height: 82vh;
   }
   .pc-hero-heading {
-    margin-top: -7rem !important;
+    margin-top: -12rem !important;
   }
   .pc-hero-form {
     position: absolute;
-    top: 180px;
+    top: 215px;
   }
   .pc-hero-form > div {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   .pc-carCardsSlider-mobile {
-    margin-top: 190px !important;
+    margin-top: 225px !important;
   }
 }
 @media (max-width: 320px) {
@@ -190,6 +190,9 @@ body, html {
     display: flex !important;
     flex-direction: column !important;
     align-items: start !important;
+  }
+  .pc-contact-banner .text-white.w-50 {
+    width: 100% !important;
   }
 }
 .pc-brands {
@@ -282,6 +285,14 @@ select:focus {
   gap: 0.5rem;
   align-items: center;
   margin-bottom: 30px;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
 }
 
 @media (max-width: 700px) {
