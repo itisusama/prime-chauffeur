@@ -312,6 +312,9 @@ select:focus {
     gap: 0.5rem;
     align-items: center;
   }
+  .pc-bannerNumbers h2 {
+    font-size: 21px !important;
+  }
 }
 .pc-contact-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/1600x800/img-3.jpg");
@@ -571,7 +574,7 @@ select:focus {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #dc3545;
   transition: all 0.3s ease-in-out;
 }
 
@@ -582,7 +585,7 @@ select:focus {
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #dc3545;
 }
 
 #about .about-container .icon-box:hover .icon i {
