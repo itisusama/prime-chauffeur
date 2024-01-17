@@ -67,8 +67,8 @@ input:focus,
 .uneditable-input:focus,
 textarea:focus,
 select:focus {   
-  border-color: #dc3545 !important;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #dc3545 !important;
+  border-color: $red !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px $red !important;
   outline: 0 none;
 }
 
