@@ -2,7 +2,7 @@ body, html{
   overflow-x: hidden;
 }
 // Variables
-@import 'variables';
+@import 'abstracts/variables';
 
 // Dark Theme
 body, .bg-light{
@@ -21,7 +21,8 @@ li,
 .pc-blog-category ul li a, 
 .form-label, 
 .pc-singleBlog-comments span,
-.contact-icons span{
+.contact-icons span,
+div[data-aos="zoom-in"][data-aos-delay="800"]{
   color: $dark-textColor;
 }
 .dropdown li a{
@@ -35,13 +36,13 @@ li,
   border-radius: 10px;
 }
 // Mixins
-@import 'mixins';
+@import 'abstracts/mixins';
 
 // START:: Navbar
-@import 'navbar';
+@import 'components/navbar';
 
 // header
-@import 'hero';
+@import 'components/hero';
 
 .item {
     margin: 2px;
@@ -104,16 +105,16 @@ select:focus {
 }
 
 //cards
-@import 'cardsandbanners';
+@import 'components/cardsandbanners';
 
 // Contact
-@import 'contact';
+@import 'pages/contact';
 
 // Testimonials
-@import 'testimonial';
+@import 'components/testimonial';
 
 // About
-@import 'about';
+@import 'pages/about';
 
 // Service
-@import 'service';
+@import 'pages/service';

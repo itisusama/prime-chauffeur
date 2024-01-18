@@ -19,7 +19,8 @@ li,
 .pc-blog-category ul li a,
 .form-label,
 .pc-singleBlog-comments span,
-.contact-icons span {
+.contact-icons span,
+div[data-aos=zoom-in][data-aos-delay="800"] {
   color: #fff;
 }
 
@@ -43,7 +44,7 @@ li,
 .pc-navbar-logo {
   color: #fff;
   border-radius: 50%;
-  background-color: #198754;
+  background-color: #dc3545;
   width: fit-content;
 }
 
@@ -52,12 +53,12 @@ li,
 }
 
 .pc-navbar-name h5 {
-  color: #615f5f;
+  color: #fff;
 }
 
 .pc-navbar-booknow {
   color: #fff;
-  background-color: #198754;
+  background-color: #dc3545;
   border: none;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -74,7 +75,7 @@ li,
 }
 
 .pc-navbar-mobile-toggle a {
-  color: #198754;
+  color: #dc3545;
 }
 
 .pc-navbar-mobile-logo {
@@ -119,7 +120,7 @@ li,
     left: 0;
   }
   .pc-mobile-navbar-close {
-    color: #198754;
+    color: #dc3545;
     float: right;
     margin-right: 10px;
     margin-top: 10px;
@@ -155,20 +156,20 @@ li,
 
 .pc-hero-form-btns button {
   color: #fff;
-  background-color: #198754;
+  background-color: #dc3545;
   border-radius: 0;
   padding: 0.2rem 3.5rem;
 }
 
 .pc-hero-form-btns button:hover {
-  color: #198754;
+  color: #dc3545;
   background-color: transparent;
   border-radius: 0;
-  border-color: #198754;
+  border-color: #dc3545;
 }
 
 .pc-hero-submit-btn {
-  background-color: #198754;
+  background-color: #dc3545;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-top-left-radius: 30px;
@@ -217,7 +218,7 @@ li,
 }
 
 .text-red {
-  color: #198754;
+  color: #dc3545;
 }
 
 @media (max-width: 767px) {
@@ -258,7 +259,7 @@ li,
 }
 
 footer h6, .footer-grid-column p i {
-  color: #198754;
+  color: #dc3545;
 }
 
 input:focus,
@@ -271,7 +272,7 @@ select:focus {
 }
 
 .pc-carPriceBadge {
-  background-color: #198754;
+  background-color: #dc3545;
   color: #fff;
   width: fit-content;
   position: absolute;
@@ -280,7 +281,7 @@ select:focus {
 }
 
 .owl-carousel i {
-  color: #198754;
+  color: #dc3545;
 }
 
 .pc-home-banner {
@@ -310,7 +311,7 @@ select:focus {
 }
 
 .pc-dnc span {
-  background-color: #198754;
+  background-color: #dc3545;
   color: #fff;
   width: fit-content;
 }
@@ -360,7 +361,7 @@ select:focus {
 }
 
 .pc-contactus-btn {
-  background-color: #198754;
+  background-color: #dc3545;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-top-left-radius: 30px;
@@ -382,15 +383,15 @@ select:focus {
 
 .pc-contact-submit {
   border: none;
-  background-color: #198754;
+  background-color: #dc3545;
   color: #fff;
   padding: 10px;
 }
 
 .pc-contact-submit:hover {
-  border: 1px solid #198754;
+  border: 1px solid #dc3545;
   background-color: transparent;
-  color: #198754;
+  color: #dc3545;
   padding: 10px;
 }
 
@@ -405,7 +406,7 @@ select:focus {
 }
 
 .pc-newsletter-btn {
-  background-color: #198754;
+  background-color: #dc3545;
   width: fit-content;
   padding: 0 15px;
 }
@@ -416,7 +417,7 @@ select:focus {
 
 .pc-contact-banner a {
   text-decoration: none;
-  color: #198754;
+  color: #dc3545;
 }
 
 @media (max-width: 491px) {
@@ -434,7 +435,7 @@ select:focus {
   }
 }
 .testimonial-slider {
-  background-color: #198754;
+  background-color: #dc3545;
   padding: 2em 2em 3em;
 }
 
@@ -491,13 +492,13 @@ select:focus {
 }
 /* START:: Counter */
 .pc-counter {
-  background-color: #198754;
+  background-color: #dc3545;
   color: #fff;
   padding: 10px;
 }
 
 .pc-counter i {
-  color: #198754;
+  color: #dc3545;
 }
 
 .counter {
@@ -607,7 +608,7 @@ select:focus {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 2px solid #198754;
+  border: 2px solid #dc3545;
   transition: all 0.3s ease-in-out;
 }
 
@@ -618,7 +619,7 @@ select:focus {
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #198754;
+  background: #dc3545;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -709,7 +710,7 @@ select:focus {
 
 #why-us {
   padding: 60px 0;
-  background: #198754;
+  background: #dc3545;
 }
 
 #why-us h3,
@@ -858,7 +859,7 @@ button {
 }
 
 #feature-first {
-  background: linear-gradient(168deg, #4b4b4b 55%, #198754 0);
+  background: linear-gradient(168deg, #4b4b4b 55%, #dc3545 0);
 }
 
 /*# sourceMappingURL=style.css.map */
