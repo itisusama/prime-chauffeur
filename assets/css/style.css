@@ -3,15 +3,23 @@ body, html {
 }
 
 body, .bg-light {
-  background-color: #3d3d3d !important;
+  background-color: #4b4b4b !important;
 }
 
 footer, .bg-body-tertiary {
-  background-color: #3d3d3d !important;
+  background-color: #4b4b4b !important;
   color: #fff !important;
 }
 
-h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a, .pc-blog-category ul li a, .form-label, .pc-singleBlog-comments span {
+h2, h3, h4, h5, h6,
+p,
+li,
+.dropdown button,
+.pc-navbar a,
+.pc-blog-category ul li a,
+.form-label,
+.pc-singleBlog-comments span,
+.contact-icons span {
   color: #fff;
 }
 
@@ -531,7 +539,6 @@ select:focus {
 --------------------------------*/
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -542,7 +549,6 @@ select:focus {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
   width: 50%;
 }
 
@@ -554,13 +560,13 @@ select:focus {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #fff;
+  background: #4b4b4b;
 }
 
 /* About Us Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: #4b4b4b;
   padding: 60px 0;
 }
 
@@ -569,7 +575,7 @@ select:focus {
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: #4b4b4b;
 }
 
 #about .about-container .title {
@@ -587,14 +593,14 @@ select:focus {
 }
 
 #about .about-container .icon-box {
-  background: #fff;
+  background: #4b4b4b;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #fff;
+  background: #4b4b4b;
   width: 64px;
   height: 64px;
   display: flex;
@@ -616,7 +622,7 @@ select:focus {
 }
 
 #about .about-container .icon-box:hover .icon i {
-  color: #fff;
+  color: #4b4b4b;
 }
 
 #about .about-container .icon-box .title {
@@ -627,7 +633,7 @@ select:focus {
 }
 
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color: #fff;
 }
 
 #about .about-container .icon-box .description {
@@ -658,7 +664,7 @@ select:focus {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #fff;
+  background: #4b4b4b;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
 }
@@ -722,7 +728,7 @@ select:focus {
   height: 100%;
 }
 
-#why-us .card-text {
+#why-us .card-text, .purecounter {
   color: #fff !important;
 }
 
@@ -748,7 +754,7 @@ select:focus {
 }
 
 #why-us .card .readmore {
-  color: #fff;
+  color: #4b4b4b;
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
@@ -768,7 +774,7 @@ select:focus {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #fff;
+  color: #4b4b4b;
 }
 
 #why-us .counters p {
@@ -821,17 +827,17 @@ button {
 }
 
 .cta-green:hover {
-  color: #fff;
+  color: #4b4b4b;
   background: #00e69c;
 }
 
 .cta-blue {
   background: #192440;
-  color: #fff;
+  color: #4b4b4b;
 }
 
 .cta-blue:hover {
-  color: #fff;
+  color: #4b4b4b;
   background: #121a2e;
 }
 
@@ -841,7 +847,7 @@ button {
 }
 
 .cta-ghost:hover {
-  color: #fff;
+  color: #4b4b4b;
   background: #121a2e;
 }
 
@@ -852,7 +858,7 @@ button {
 }
 
 #feature-first {
-  background: linear-gradient(168deg, #fff 55%, #198754 0);
+  background: linear-gradient(168deg, #4b4b4b 55%, #198754 0);
 }
 
 /*# sourceMappingURL=style.css.map */

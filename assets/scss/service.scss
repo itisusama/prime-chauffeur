@@ -10,7 +10,6 @@
   --------------------------------*/
   .section-header h3 {
     font-size: 36px;
-    color: #283d50;
     text-align: center;
     font-weight: 500;
     position: relative;
@@ -21,7 +20,6 @@
     margin: auto;
     font-size: 15px;
     padding-bottom: 60px;
-    color: #556877;
     width: 50%;
   }
   
@@ -34,13 +32,13 @@
   /* Section with background
   --------------------------------*/
   .section-bg {
-    background: $white;
+    background: $darkBackground;
   }
   
   /* About Us Section
   --------------------------------*/
   #about {
-    background: $white;
+    background: $darkBackground;
     padding: 60px 0;
   }
   
@@ -49,7 +47,7 @@
   }
   
   #about .about-container .content {
-    background: $white;
+    background: $darkBackground;
   }
   
   #about .about-container .title {
@@ -67,14 +65,14 @@
   }
   
   #about .about-container .icon-box {
-    background: $white;
+    background: $darkBackground;
     background-size: cover;
     padding: 0 0 30px 0;
   }
   
   #about .about-container .icon-box .icon {
     float: left;
-    background: $white;
+    background: $darkBackground;
     width: 64px;
     height: 64px;
     display: flex;
@@ -96,7 +94,7 @@
   }
   
   #about .about-container .icon-box:hover .icon i {
-    color: $white;
+    color: $darkBackground;
   }
   
   #about .about-container .icon-box .title {
@@ -107,7 +105,7 @@
   }
   
   #about .about-container .icon-box .title a {
-    color: #283d50;
+    color: $dark-textColor;
   }
   
   #about .about-container .icon-box .description {
@@ -138,7 +136,7 @@
     overflow: hidden;
     border-radius: 10px;
     margin: 0 10px 40px 10px;
-    background: $white;
+    background: $darkBackground;
     box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
     transition: all 0.3s ease-in-out;
   }
@@ -188,7 +186,7 @@
   
   #why-us h3,
   #why-us p {
-    color: $white;
+    color: $dark-textColor;
   }
   
   #why-us .card {
@@ -202,7 +200,7 @@
     height: 100%;
   }
 
-  #why-us .card-text{
+  #why-us .card-text, .purecounter{
     color: $white !important;
   }
   
@@ -229,7 +227,7 @@
   }
   
   #why-us .card .readmore {
-    color: $white;
+    color: $darkBackground;
     font-weight: 600;
     display: inline-block;
     transition: 0.3s ease-in-out;
@@ -249,7 +247,7 @@
     font-weight: bold;
     font-size: 48px;
     display: block;
-    color: $white;
+    color: $darkBackground;
   }
   
   #why-us .counters p {
@@ -302,17 +300,17 @@
   }
   
   .cta-green:hover {
-    color: $white;
+    color: $darkBackground;
     background: #00e69c;
   }
   
   .cta-blue {
     background: $darkBlue;
-    color: $white;
+    color: $darkBackground;
   }
   
   .cta-blue:hover {
-    color: $white;
+    color: $darkBackground;
     background: #121a2e;
   }
   
@@ -322,7 +320,7 @@
   }
   
   .cta-ghost:hover {
-    color: $white;
+    color: $darkBackground;
     background: #121a2e;
   }
   
@@ -333,6 +331,6 @@
   }
   
   #feature-first {
-    background: linear-gradient(168deg, $white 55%, $red 0);
+    background: linear-gradient(168deg, $background-color 55%, $red 0);
   }
   

@@ -13,7 +13,15 @@ footer, .bg-body-tertiary{
   background-color: $background-color !important;
   color: $dark-textColor !important;
 }
-h2,h3,h4,h5,h6, p, li, .dropdown button, .pc-navbar a, .pc-blog-category ul li a, .form-label, .pc-singleBlog-comments span{
+h2,h3,h4,h5,h6, 
+p, 
+li, 
+.dropdown button, 
+.pc-navbar a, 
+.pc-blog-category ul li a, 
+.form-label, 
+.pc-singleBlog-comments span,
+.contact-icons span{
   color: $dark-textColor;
 }
 .dropdown li a{
@@ -22,12 +30,10 @@ h2,h3,h4,h5,h6, p, li, .dropdown button, .pc-navbar a, .pc-blog-category ul li a
 .card{
   background-color: $green;
 }
-
 .shadow{
   background-color: $text-color !important;
   border-radius: 10px;
 }
-
 // Mixins
 @import 'mixins';
 
