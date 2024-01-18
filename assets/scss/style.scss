@@ -3,6 +3,18 @@ body, html{
 }
 // Variables
 @import 'variables';
+
+// body, footer{
+//   background-color: $background-color;
+// }
+// h2,h3,h4,h5,h6, p{
+//   color: $dark-textColor;
+// }
+
+// .card{
+//   background-color: $green;
+// }
+
 // Mixins
 @import 'mixins';
 
