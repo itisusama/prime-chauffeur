@@ -2,6 +2,32 @@ body, html {
   overflow-x: hidden;
 }
 
+body, .bg-light {
+  background-color: #1a1a1a !important;
+}
+
+footer, .bg-body-tertiary {
+  background-color: #1a1a1a !important;
+  color: #fff !important;
+}
+
+h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a {
+  color: #fff;
+}
+
+.dropdown li a {
+  color: black;
+}
+
+.card {
+  background-color: #198754;
+}
+
+.shadow {
+  background-color: #615f5f !important;
+  border-radius: 10px;
+}
+
 .pc-navbar a {
   text-decoration: none;
 }
@@ -686,19 +712,18 @@ select:focus {
 }
 
 #why-us .card {
-  color: black !important;
-  background: #fff;
+  color: #fff !important;
+  background: #615f5f;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
-  color: #fff;
   transition: 0.3s ease-in-out;
   height: 100%;
 }
 
 #why-us .card-text {
-  color: black !important;
+  color: #fff !important;
 }
 
 @media (max-width: 991px) {

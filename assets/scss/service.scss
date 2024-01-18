@@ -192,19 +192,18 @@
   }
   
   #why-us .card {
-    color: black !important;
-    background: $white;
+    color: $white !important;
+    background: $text-color;
     border-radius: 10px;
     margin: 0 15px;
     padding: 15px 0;
     text-align: center;
-    color: $white;
     transition: 0.3s ease-in-out;
     height: 100%;
   }
 
   #why-us .card-text{
-    color: black !important;
+    color: $white !important;
   }
   
   @media (max-width: 991px) {

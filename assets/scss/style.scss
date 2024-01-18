@@ -4,16 +4,31 @@ body, html{
 // Variables
 @import 'variables';
 
-// body, footer{
-//   background-color: $background-color;
-// }
-// h2,h3,h4,h5,h6, p{
-//   color: $dark-textColor;
-// }
+// Dark Theme
+body, .bg-light{
+  background-color: $background-color !important;
+}
 
-// .card{
-//   background-color: $green;
-// }
+footer, .bg-body-tertiary{
+  background-color: $background-color !important;
+  color: $dark-textColor !important;
+}
+h2,h3,h4,h5,h6, p, li, .dropdown button, .pc-navbar a{
+  color: $dark-textColor;
+}
+.dropdown li a{
+  color: black;
+}
+
+
+.card{
+  background-color: $green;
+}
+
+.shadow{
+  background-color: $text-color !important;
+  border-radius: 10px;
+}
 
 // Mixins
 @import 'mixins';
