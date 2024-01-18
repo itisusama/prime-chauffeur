@@ -3,15 +3,15 @@ body, html {
 }
 
 body, .bg-light {
-  background-color: #1a1a1a !important;
+  background-color: #3d3d3d !important;
 }
 
 footer, .bg-body-tertiary {
-  background-color: #1a1a1a !important;
+  background-color: #3d3d3d !important;
   color: #fff !important;
 }
 
-h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a {
+h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a, .pc-blog-category ul li a, .form-label, .pc-singleBlog-comments span {
   color: #fff;
 }
 
@@ -35,7 +35,7 @@ h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a {
 .pc-navbar-logo {
   color: #fff;
   border-radius: 50%;
-  background-color: #dc3545;
+  background-color: #198754;
   width: fit-content;
 }
 
@@ -49,7 +49,7 @@ h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a {
 
 .pc-navbar-booknow {
   color: #fff;
-  background-color: #dc3545;
+  background-color: #198754;
   border: none;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -66,7 +66,7 @@ h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a {
 }
 
 .pc-navbar-mobile-toggle a {
-  color: #dc3545;
+  color: #198754;
 }
 
 .pc-navbar-mobile-logo {
@@ -111,7 +111,7 @@ h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a {
     left: 0;
   }
   .pc-mobile-navbar-close {
-    color: #dc3545;
+    color: #198754;
     float: right;
     margin-right: 10px;
     margin-top: 10px;
@@ -147,20 +147,20 @@ h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a {
 
 .pc-hero-form-btns button {
   color: #fff;
-  background-color: #dc3545;
+  background-color: #198754;
   border-radius: 0;
   padding: 0.2rem 3.5rem;
 }
 
 .pc-hero-form-btns button:hover {
-  color: #dc3545;
+  color: #198754;
   background-color: transparent;
   border-radius: 0;
-  border-color: #dc3545;
+  border-color: #198754;
 }
 
 .pc-hero-submit-btn {
-  background-color: #dc3545;
+  background-color: #198754;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-top-left-radius: 30px;
@@ -209,7 +209,7 @@ h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a {
 }
 
 .text-red {
-  color: #dc3545;
+  color: #198754;
 }
 
 @media (max-width: 767px) {
@@ -250,20 +250,20 @@ h2, h3, h4, h5, h6, p, li, .dropdown button, .pc-navbar a {
 }
 
 footer h6, .footer-grid-column p i {
-  color: #dc3545;
+  color: #198754;
 }
 
 input:focus,
 .uneditable-input:focus,
 textarea:focus,
 select:focus {
-  border-color: #dc3545 !important;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #dc3545 !important;
+  border-color: #fff !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #fff !important;
   outline: 0 none;
 }
 
 .pc-carPriceBadge {
-  background-color: #dc3545;
+  background-color: #198754;
   color: #fff;
   width: fit-content;
   position: absolute;
@@ -272,7 +272,7 @@ select:focus {
 }
 
 .owl-carousel i {
-  color: #dc3545;
+  color: #198754;
 }
 
 .pc-home-banner {
@@ -302,7 +302,7 @@ select:focus {
 }
 
 .pc-dnc span {
-  background-color: #dc3545;
+  background-color: #198754;
   color: #fff;
   width: fit-content;
 }
@@ -352,7 +352,7 @@ select:focus {
 }
 
 .pc-contactus-btn {
-  background-color: #dc3545;
+  background-color: #198754;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-top-left-radius: 30px;
@@ -374,15 +374,15 @@ select:focus {
 
 .pc-contact-submit {
   border: none;
-  background-color: #dc3545;
+  background-color: #198754;
   color: #fff;
   padding: 10px;
 }
 
 .pc-contact-submit:hover {
-  border: 1px solid #dc3545;
+  border: 1px solid #198754;
   background-color: transparent;
-  color: #dc3545;
+  color: #198754;
   padding: 10px;
 }
 
@@ -397,7 +397,7 @@ select:focus {
 }
 
 .pc-newsletter-btn {
-  background-color: #dc3545;
+  background-color: #198754;
   width: fit-content;
   padding: 0 15px;
 }
@@ -408,7 +408,7 @@ select:focus {
 
 .pc-contact-banner a {
   text-decoration: none;
-  color: #dc3545;
+  color: #198754;
 }
 
 @media (max-width: 491px) {
@@ -426,7 +426,7 @@ select:focus {
   }
 }
 .testimonial-slider {
-  background-color: #dc3545;
+  background-color: #198754;
   padding: 2em 2em 3em;
 }
 
@@ -483,13 +483,13 @@ select:focus {
 }
 /* START:: Counter */
 .pc-counter {
-  background-color: #dc3545;
+  background-color: #198754;
   color: #fff;
   padding: 10px;
 }
 
 .pc-counter i {
-  color: #dc3545;
+  color: #198754;
 }
 
 .counter {
@@ -514,7 +514,7 @@ select:focus {
   margin-top: 10px;
   margin-bottom: 0;
   text-align: center;
-  color: #dc3545;
+  color: #fff !important;
 }
 
 .counter .fa-2x {
@@ -601,7 +601,7 @@ select:focus {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 2px solid #dc3545;
+  border: 2px solid #198754;
   transition: all 0.3s ease-in-out;
 }
 
@@ -612,7 +612,7 @@ select:focus {
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #dc3545;
+  background: #198754;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -703,7 +703,7 @@ select:focus {
 
 #why-us {
   padding: 60px 0;
-  background: #dc3545;
+  background: #198754;
 }
 
 #why-us h3,
@@ -852,7 +852,7 @@ button {
 }
 
 #feature-first {
-  background: linear-gradient(168deg, #fff 55%, #dc3545 0);
+  background: linear-gradient(168deg, #fff 55%, #198754 0);
 }
 
 /*# sourceMappingURL=style.css.map */

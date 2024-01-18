@@ -13,14 +13,12 @@ footer, .bg-body-tertiary{
   background-color: $background-color !important;
   color: $dark-textColor !important;
 }
-h2,h3,h4,h5,h6, p, li, .dropdown button, .pc-navbar a{
+h2,h3,h4,h5,h6, p, li, .dropdown button, .pc-navbar a, .pc-blog-category ul li a, .form-label, .pc-singleBlog-comments span{
   color: $dark-textColor;
 }
 .dropdown li a{
   color: black;
 }
-
-
 .card{
   background-color: $green;
 }
@@ -94,8 +92,8 @@ input:focus,
 .uneditable-input:focus,
 textarea:focus,
 select:focus {   
-  border-color: $red !important;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px $red !important;
+  border-color: $white !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px $white !important;
   outline: 0 none;
 }
 
