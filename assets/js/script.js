@@ -59,39 +59,23 @@ if (window.matchMedia("(min-width: 576px)").matches) {
 }
 
 // Form
-let onewaycheck = document.getElementById('onewaycheck');
-let returncheck = document.getElementById('returncheck');
-let onewaybookingdate = document.getElementById('onewaybookingdate');
-let onewaybookingtime = document.getElementById('onewaybookingtime');
-let returnbookingdate = document.getElementById('returnbookingdate');
-let returnbookingtime = document.getElementById('returnbookingtime');
+const elements = {
+  onewaycheck: document.getElementById('onewaycheck'),
+  returncheck: document.getElementById('returncheck'),
+  onewaybookingdate: document.getElementById('onewaybookingdate'),
+  onewaybookingtime: document.getElementById('onewaybookingtime'),
+  returnbookingdate: document.getElementById('returnbookingdate'),
+  returnbookingtime: document.getElementById('returnbookingtime'),
+};
 
-// Add an event listener to onewaycheck checkbox
-onewaycheck.addEventListener('change', function() {
-  // Disable or enable return elements based on the checked state of onewaycheck
-  returncheck.disabled = this.checked;
-  returnbookingdate.disabled = this.checked;
-  returnbookingtime.disabled = this.checked;
-
-  // If onewaycheck is checked, also clear the values in return elements
-  if (this.checked) {
-      returncheck.checked = false;
-      returnbookingdate.value = '';
-      returnbookingtime.value = '';
+const handleCheckboxChange = (checkbox, disableElements) => {
+  disableElements.forEach(element => element.disabled = checkbox.checked);
+  if (checkbox.checked) {
+    disableElements[0].checked = false;
+    disableElements.slice(1).forEach(element => element.value = '');
   }
-});
+};
 
-// Add an event listener to returncheck checkbox
-returncheck.addEventListener('change', function() {
-  // Disable or enable oneway elements based on the checked state of returncheck
-  onewaycheck.disabled = this.checked;
-  onewaybookingdate.disabled = this.checked;
-  onewaybookingtime.disabled = this.checked;
+elements.onewaycheck.addEventListener('change', () => handleCheckboxChange(elements.onewaycheck, [elements.returncheck, elements.returnbookingdate, elements.returnbookingtime]));
 
-  // If returncheck is checked, also clear the values in oneway elements
-  if (this.checked) {
-      onewaycheck.checked = false;
-      onewaybookingdate.value = '';
-      onewaybookingtime.value = '';
-  }
-});
+elements.returncheck.addEventListener('change', () => handleCheckboxChange(elements.returncheck, [elements.onewaycheck, elements.onewaybookingdate, elements.onewaybookingtime]));
